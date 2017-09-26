@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/gray_bg">
+
+    <ImageView
+        android:id="@+id/touxiangid"
+        android:layout_width="300dp"
+        android:layout_height="170dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/icon_touxiang" />
+
+    <RelativeLayout
+        android:layout_width="220dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:background="#90000000">
+
+        <TextView
+            android:id="@+id/nicknameid"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:text="陈机制"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/gl_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/nicknameid"
+            android:text="100m" />
+
+        <TextView
+            android:id="@+id/yearid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:text="26岁"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

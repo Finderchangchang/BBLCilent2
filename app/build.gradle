@@ -1,0 +1,62 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+    android {compileOptions.encoding = "GBK"}
+
+    defaultConfig {
+        applicationId "com.beibeilian.android"
+        minSdkVersion 8
+        targetSdkVersion 11
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_7
+            targetCompatibility JavaVersion.VERSION_1_7
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+        }
+    }
+    sourceSets {0-9
+        main {
+            jniLibs.srcDirs = ['libs']
+            jni.srcDirs = ['src/main/jni', 'src/main/jni/']
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/NOTICE' // will not include NOTICE file
+        exclude 'META-INF/LICENSE' // will not include LICENSE file
+        exclude 'META-INF/DEPENDENCIES'
+    }
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:support-v4:23.0.0'
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile files('libs/asmack-android-8-0.8.10.jar')
+    compile files('libs/BmobPay_v3.2.0_170602.jar')
+    compile files('libs/picasso-2.5.2.jar')
+    compile files('libs/commons-codec-1.9.jar')
+    compile files('libs/commons-logging-1.2.jar')
+    compile files('libs/fluent-hc-4.5.jar')
+    compile files('libs/httpclient-4.5.jar')
+    compile files('libs/httpclient-cache-4.5.jar')
+    compile files('libs/httpclient-win-4.5.jar')
+    compile files('libs/httpcore-4.4.1.jar')
+    compile files('libs/httpmime-4.5.jar')
+    compile files('libs/jna-4.1.0.jar')
+    compile files('libs/jna-platform-4.1.0.jar')
+    compile files('libs/universal-image-loader-1.9.4.jar')
+    compile files('libs/zy_pay.jar')
+}

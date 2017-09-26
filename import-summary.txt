@@ -1,0 +1,74 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\BBLCilent.iml
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\workspace.xml
+* Thumbs.db
+* hs_err_pid6408.log
+* proguard\
+* proguard\dump.txt
+* proguard\mapping.txt
+* proguard\seeds.txt
+* proguard\usage.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+gson-2.3.1.jar => com.google.code.gson:gson:2.3.1
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* libs\arm64-v8a\libbmobwpay.so => app\src\main\jniLibs\arm64-v8a\libbmobwpay.so
+* libs\armeabi-v7a\libbmobwpay.so => app\src\main\jniLibs\armeabi-v7a\libbmobwpay.so
+* libs\armeabi\libbmobwpay.so => app\src\main\jniLibs\armeabi\libbmobwpay.so
+* libs\asmack-android-8-0.8.10.jar => app\libs\asmack-android-8-0.8.10.jar
+* libs\BmobPay_v3.2.0_170602.jar => app\libs\BmobPay_v3.2.0_170602.jar
+* libs\httpmime-4.2.2.jar => app\libs\httpmime-4.2.2.jar
+* libs\picasso-2.5.2.jar => app\libs\picasso-2.5.2.jar
+* libs\universal-image-loader-1.9.4.jar => app\libs\universal-image-loader-1.9.4.jar
+* libs\x86\libbmobwpay.so => app\src\main\jniLibs\x86\libbmobwpay.so
+* proguard-project.txt => app\proguard-project.txt
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* icon_vip.PNG => icon_vip.png
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

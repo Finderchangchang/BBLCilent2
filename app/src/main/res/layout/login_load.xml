@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/load_login" >
+
+    <Button
+        android:id="@+id/btn_yjregister"
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:layout_above="@+id/v_middle"
+        android:layout_alignParentTop="true"
+        android:background="@color/transparent" />
+
+    <Button
+        android:id="@+id/v_middle"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_centerVertical="true"
+        android:background="@color/transparent" />
+
+    <Button
+        android:id="@+id/btn_zhlogin"
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/v_middle"
+        android:background="@color/transparent"
+       />
+
+</RelativeLayout>

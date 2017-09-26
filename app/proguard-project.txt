@@ -1,0 +1,82 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+-ignorewarnings
+-libraryjars libs/BmobPay_v3.2.0_170602.jar
+-libraryjars libs/asmack-android-8-0.8.10.jar
+-libraryjars libs/httpmime-4.2.2.jar
+-libraryjars libs/picasso-2.5.2.jar
+-libraryjars libs/android-support-v4.jar
+-libraryjars libs/universal-image-loader-1.9.4.jar
+-libraryjars libs/gson-2.3.1.jar
+
+-libraryjars libs/armeabi/libbmobwpay.so
+-libraryjars libs/arm64-v8a/libbmobwpay.so
+-libraryjars libs/armeabi-v7a/libbmobwpay.so
+
+-libraryjars libs/x86/libbmobwpay.so
+
+
+
+-keep public class * extends android.app.Fragment  
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.app.backup.BackupAgentHelper
+-keep public class * extends android.preference.Preference
+
+-keepattributes Signature  
+-keep class sun.misc.Unsafe { *; }  
+-keep class com.google.**{*;}  
+-keepclassmembers class * implements java.io.Serializable {  
+    static final long serialVersionUID;  
+    private static final java.io.ObjectStreamField[] serialPersistentFields;  
+    private void writeObject(java.io.ObjectOutputStream);  
+    private void readObject(java.io.ObjectInputStream);  
+    java.lang.Object writeReplace();  
+    java.lang.Object readResolve();  
+}  
+
+
+-dontwarn c.b.**
+-keep class c.b.** {*;}
+-keepclasseswithmembers class c.b.** { *; }
+-keep interface c.b.PListener{ *; }
+-keep interface c.b.QListener{ *; }
+-dontwarn org.jivesoftware.smack.**
+-keep class org.jivesoftware.smack.** {*;}
+-dontwarn  org.apache.http.**
+-keep class org.apache.http.** {*;}
+-dontwarn com.squareup.**
+-keep class com.squareup.** {*;}
+
+-dontwarn com.nostra13.universalimageloader.**
+-keep class com.nostra13.universalimageloader.** {*;}
+
+-dontwarn android.support.v4.**
+-keep class android.support.v4.** {*;}
+
+-keep class com.zy.**{*;}
+
+
+

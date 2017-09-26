@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$/app/libs/zy_pay.jar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/beibeilian/EverDayActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/beibeilian/RegsiterActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/beibeilian/WelcomeActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/beibeilian/chat/widget/DropdownListView.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/beibeilian/circle/contral/CirclePublicCommentContral.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/beibeilian/circle/mvp/modle/CircleModel.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/beibeilian/db/BBLDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/beibeilian/orderdialog/OrderDailog2.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/beibeilian/service/CoreIMService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/beibeilian/util/HelperUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/beibeilian/util/HttpConstantUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/beibeilian/util/fileupload/CrashFileUploadMultipartPost.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_wxscan.xml" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

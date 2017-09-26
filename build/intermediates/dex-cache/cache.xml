@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\Project\BBLCilent2\app\libs\httpclient-win-4.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2f384c9c8ed771664b135cdb593e2235e4ea3524">
+        <dex dex="E:\Project\BBLCilent2\app\build\intermediates\pre-dexed\debug\httpclient-win-4.5_b2605b9f8ee1a8ff15b58cbe92d9476d82b46ea8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Project\BBLCilent2\app\libs\zy_pay.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="24d3dafdf4969988959b5d784bba4312a70548c5">
+        <dex dex="E:\Project\BBLCilent2\app\build\intermediates\pre-dexed\debug\zy_pay_08b29637847e6a47dd11987d73996b48d620669a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Project\BBLCilent2\app\libs\fluent-hc-4.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6b83009428e935d37c2312b780de64b67f9131a5">
+        <dex dex="E:\Project\BBLCilent2\app\build\intermediates\pre-dexed\debug\fluent-hc-4.5_bac7a32827e2af45d85c79ea018ca9061cdc9a29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Project\BBLCilent2\app\libs\httpmime-4.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7bdb321e86724b16af6134a0fd22fec649eda971">
+        <dex dex="E:\Project\BBLCilent2\app\build\intermediates\pre-dexed\debug\httpmime-4.5_f00eea9061f62011d952447b955dbcfe4c699399.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Project\BBLCilent2\app\libs\httpclient-cache-4.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd8704e3cf3e56c4fc135d5a5e02970d521ccf80">
+        <dex dex="E:\Project\BBLCilent2\app\build\intermediates\pre-dexed\debug\httpclient-cache-4.5_228eb266a2544b13fe42e776d39368ef75292b54.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Project\BBLCilent2\app\libs\universal-image-loader-1.9.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="E:\Project\BBLCilent2\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.4_09858667f3cf326f9aeaf86ce584950d7d1861b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Project\BBLCilent2\app\libs\commons-logging-1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4bfc12adfe4842bf07b657f0369c4cb522955686">
+        <dex dex="E:\Project\BBLCilent2\app\build\intermediates\pre-dexed\debug\commons-logging-1.2_4ccfeb60932ec3f250e2d5cc3a3fde38bb4e15e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Project\BBLCilent2\app\libs\httpcore-4.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f5aa318bda4c6c8d688c9d00b90681dcd82ce636">
+        <dex dex="E:\Project\BBLCilent2\app\build\intermediates\pre-dexed\debug\httpcore-4.4.1_1dafba1830316dcb97c4a7f8516247c0d5a187b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Project\BBLCilent2\app\libs\commons-codec-1.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9ce04e34240f674bc72680f8b843b1457383161a">
+        <dex dex="E:\Project\BBLCilent2\app\build\intermediates\pre-dexed\debug\commons-codec-1.9_a2ed21770b32d99fd1fd71d739978586f844fdba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Project\BBLCilent2\app\libs\jna-4.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1c12d070e602efd8021891cdd7fd18bc129372d4">
+        <dex dex="E:\Project\BBLCilent2\app\build\intermediates\pre-dexed\debug\jna-4.1.0_5bb32aa988198ab403c7fe25c2a306fda649474e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Project\BBLCilent2\app\libs\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="E:\Project\BBLCilent2\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_72e787f880aca7ce19edd7b82c20099166ddc3b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Project\BBLCilent2\app\libs\BmobPay_v3.2.0_170602.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1175087fdb7947ec8fa074e1c19d51c3001e70a4">
+        <dex dex="E:\Project\BBLCilent2\app\build\intermediates\pre-dexed\debug\BmobPay_v3.2.0_170602_de89a0e6e8ac70dcdca5b923a64eb53d248fea62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Project\BBLCilent2\app\libs\asmack-android-8-0.8.10.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8ffad10173ab28a17db77cf10c9a9fc95037305b">
+        <dex dex="E:\Project\BBLCilent2\app\build\intermediates\pre-dexed\debug\asmack-android-8-0.8.10_a97abe328f94616ca71e72a506427271e3802217.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Project\BBLCilent2\app\libs\jna-platform-4.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="23457ad1cf75c2c16763330de5565a0e67b4bc0a">
+        <dex dex="E:\Project\BBLCilent2\app\build\intermediates\pre-dexed\debug\jna-platform-4.1.0_1cefb098cc9f0774fe9707f8ad6416507cb58744.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Project\BBLCilent2\app\libs\httpclient-4.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a1e6cbb3cc2c5f210dd1310ff9fcb2c09c0d1438">
+        <dex dex="E:\Project\BBLCilent2\app\build\intermediates\pre-dexed\debug\httpclient-4.5_34d1b22d103f936a82ffcc3f4fb2ea85dd60291a.jar" />
+    </item>
+
+</items>

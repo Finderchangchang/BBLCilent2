@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff006400"
+            android:gravity="bottom|center"
+            android:orientation="vertical"
+            android:padding="10.0dip">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ff006400"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40.0dip"
+                    android:layout_height="36.0dip"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/wx_top"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="微 信 支 付"
+                    android:textColor="@android:color/white"
+                    android:textSize="28.0sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="180.0dip"
+                android:layout_height="30.0dip"
+                android:layout_gravity="center"
+                android:layout_marginTop="10.0dip"
+                android:background="@android:color/white"
+                android:text="欢迎使用微信支付"
+                android:textColor="#ff009e3d"
+                android:textSize="16.0sp"/>
+
+            <ImageView
+                android:id="@+id/image_scan"
+                android:layout_width="200.0dip"
+                android:layout_height="200.0dip"
+                android:layout_gravity="center"
+                android:layout_marginTop="10.0dip"
+                android:background="@drawable/wx_frame"
+                android:padding="10.0dip"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:id="@+id/price_scan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/white"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:textSize="18.0sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/notice_scan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:gravity="center"
+            android:paddingLeft="30.0dip"
+            android:paddingRight="30.0dip"
+            android:text=""
+            android:textColor="#ff22ab3a"
+            android:textSize="18.0sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/step_scan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:paddingLeft="50.0dip"
+            android:paddingRight="50.0dip"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="13.0sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/start_scan"
+            android:layout_width="300.0dip"
+            android:layout_height="40.0dip"
+            android:layout_gravity="center"
+            android:layout_marginTop="20.0dip"
+            android:background="#2CB044"
+            android:text="前往微信扫一扫"
+            android:textColor="@android:color/white"
+            android:textSize="18.0sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/list_scan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20.0dip"
+            android:gravity="center"
+            android:paddingLeft="20.0dip"
+            android:paddingRight="20.0dip"
+            android:text="若进入微信失败,请手动打开微信"
+            android:textColor="@android:color/black"
+            android:textSize="13.0sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/done_scan"
+            android:layout_width="300.0dip"
+            android:layout_height="40.0dip"
+            android:layout_gravity="center"
+            android:layout_marginTop="20.0dip"
+            android:background="#2CB044"
+            android:text="支付完成"
+            android:textColor="@android:color/white"
+            android:textSize="18.0sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20.0dip"
+            android:gravity="center"
+            android:paddingLeft="20.0dip"
+            android:paddingRight="20.0dip"
+            android:text="完成支付后,点击支付完成"
+            android:textColor="@android:color/black"
+            android:textSize="13.0sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:layout_width="300.0dip"
+            android:layout_height="750.0dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/wx_operation"/>
+    </LinearLayout>
+</ScrollView>
