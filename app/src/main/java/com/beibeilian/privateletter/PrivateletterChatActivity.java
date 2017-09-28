@@ -352,11 +352,11 @@ public class PrivateletterChatActivity extends Activity implements OnClickListen
 
 			vip = PreferencesUtils.getString(PrivateletterChatActivity.this, "vip");
 			if (TextUtils.isEmpty(vip) || !vip.equals("1")) {
-				boolean result = dao.queryChatISSend3(username);
-				if (result) {
+				//boolean result = dao.queryChatISSend3(username);
+				//if (result) {
 					startActivity(new Intent(PrivateletterChatActivity.this, MeMemberActivity.class));
 					return;
-				}
+				//}
 			}
 			String message = input.getText().toString().trim();
 			if (message.length() == 0) {
